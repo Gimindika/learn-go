@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+    <meta charset="UTF-8">
+    <title>Struct with Slices of Structs Data - Fruits and Animals</title>
+</head>
+<body>
+<ul>
+    {{range .Fruits}}
+    <li>{{.Name}} is {{.Color}}</li>
+    {{end}}
+</ul>
+
+<ul>
+    {{range .Animals}}
+    <li>{{.Name}} eats {{.Food}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
