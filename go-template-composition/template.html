@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Composition - Struct</title>
+    </head>
+    <body>
+        {{.Name}} is {{.Age}} years old
+        {{if .License}}
+            {{.Name}} can shoot bad guy
+            {{.Shoot}}
+            Fine : {{.Fine | .DoubleFine}}
+        {{end}}
+    </body>
+</html>
